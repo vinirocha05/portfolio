@@ -1,3 +1,5 @@
-export default function Home() {
-  return <h1>olá</h1>;
+import Home from '../containers/Home';
+
+export default function app() {
+  return <Home />;
 }
