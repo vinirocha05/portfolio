@@ -27,14 +27,16 @@ const skills = [
   },
   {
     name: 'Styled Components',
-    description: 'loreuykjyujmadadas dasdasd adsdas',
+    description:
+      'O Styled Components é um biblioteca que nos permite escrever CSS dentro de um arquivo Javascript,dentre os principais benefícos podemos criar estlizaçoes dinâmicas e personalizáveis para cada components ',
     image: '/assets/styled.png',
   },
   {
-    name: 'CSS',
-    description: 'loremadadas dasdasd adsdas',
+    name: 'Github',
+    description:
+      'Como ferramenta de versionamento de código utilizo o Github, além de conseguir quebra a entrega do projeto em várias etapas podemos compartilhar o trabalho com outros desenvolvedores.',
     image:
-      'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg',
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
   },
   {
     name: 'Javascript',

@@ -18,6 +18,7 @@ export const Container = styled.div`
   img {
     width: 100%;
     padding: 1rem;
+    cursor: pointer;
   }
 
   transition: 0.5s all ease-in-out;
