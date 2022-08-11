@@ -17,6 +17,11 @@ export const Content = styled.div`
 `;
 
 export const SkillDetails = styled.div`
+  span {
+    color: ${({ theme }) => theme.colors.white};
+    font-size: ${({ theme }) => theme.fonts.sizes.large};
+    text-align: center;
+  }
   h2 {
     color: ${({ theme }) => theme.colors.primary};
     font-size: ${({ theme }) => theme.fonts.sizes.superlarge};

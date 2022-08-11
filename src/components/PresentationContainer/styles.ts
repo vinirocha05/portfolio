@@ -23,6 +23,55 @@ export const PresentationText = styled.div`
 
   h3 {
     color: ${({ theme }) => theme.colors.primary};
-    font-size: ${({ theme }) => theme.spacings.medium};
+    font-size: ${({ theme }) => theme.fonts.sizes.medium};
+  }
+`;
+
+export const GithubLink = styled.div`
+  padding: 1rem;
+  background-color: ${({ theme }) => theme.colors.white};
+  display: flex;
+  align-items: center;
+  max-width: 20rem;
+  color: black;
+  border-radius: 0.9rem;
+  margin-top: 2rem;
+  transition: 0.5s all ease-in-out;
+
+  cursor: pointer;
+  img {
+    width: 2rem;
+  }
+  a {
+    margin-left: 2rem;
+    font-size: ${({ theme }) => theme.fonts.sizes.small};
+  }
+
+  :hover {
+    transform: scale(1.05);
+  }
+`;
+export const LinkedinLink = styled.div`
+  padding: 1rem;
+  background-color: #0e76a8;
+  display: flex;
+  align-items: center;
+  max-width: 20rem;
+  color: black;
+  border-radius: 0.9rem;
+  cursor: pointer;
+  margin-top: 2rem;
+  transition: 0.5s all ease-in-out;
+  img {
+    width: 2rem;
+  }
+  a {
+    margin-left: 2rem;
+    color: ${({ theme }) => theme.colors.white};
+    font-size: ${({ theme }) => theme.fonts.sizes.small};
+  }
+
+  :hover {
+    transform: scale(1.05);
   }
 `;

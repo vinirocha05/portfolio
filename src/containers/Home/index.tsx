@@ -3,6 +3,7 @@ import PresentationContainer from '../../components/PresentationContainer';
 import Citation from '../../components/Citation';
 import Technologys from '../../components/Technologys';
 import Projects from '../../components/Projects';
+import Footer from '../../components/Footer';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Citation />
       <Technologys />
       <Projects />
+      <Footer />
     </>
   );
 }

@@ -19,4 +19,9 @@ export const Container = styled.div`
     width: 100%;
     padding: 1rem;
   }
+
+  transition: 0.5s all ease-in-out;
+  :hover {
+    transform: scale(1.05);
+  }
 `;

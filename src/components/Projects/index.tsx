@@ -8,28 +8,22 @@ export type ProjectsProps = {
 
 const projects = [
   {
-    name: 'Typescript',
-    description: 'loremadadas dasdasd adsdas',
-    cover:
-      'https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg',
+    name: 'Desafio Wine',
+    description:
+      'Projeto desenvolvido com Typescript e Styled Components para estilização. Foi utilizado o NextJs como framework devido fuas ferramentas para criar sites estáticos com possibilidade de implementar SSR. Durante esse desafio pude sentir na práticas os princípios da progracmação KISS e DRY, uma que depois da refatoração projeto provavelmente terminei com metade do código que tinha escrito ',
+    cover: '/assets/wine-project.png',
   },
   {
-    name: 'Typescript',
-    description: 'loremadadas dasdasd adsdas',
-    cover:
-      'https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg',
+    name: 'Site Ah!çaí',
+    description:
+      'Algum tempo atrás minha mãe tinha um loja açaí, então para treinar um pouco das minhas habilidades em Javascript e CSS resolvi criar essa página de apresentação da Loja. Projeto muito legal, que além de treinar as habilidades relativas ao desenvolvimento, tinha a oportunidade de entender um pouco mais do processo de hospedagem e compra de domínios ',
+    cover: '/assets/ahcai-project.png',
   },
   {
-    name: 'Typescript',
-    description: 'loremadadas dasdasd adsdas',
-    cover:
-      'https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg',
-  },
-  {
-    name: 'Typescript',
-    description: 'loremadadas dasdasd adsdas',
-    cover:
-      'https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg',
+    name: 'Blog',
+    description:
+      'Para criar esse Blog utilizei o Strapi como ferramenta de CMS, além do Docker e Postgres para gerar o banco de dados. O projeto foi desenvolvido em Typescript, utilziando o Styled Components para estilização. Para os teste foram utilziados as bibliotecas Jest e Storybook.',
+    cover: '/assets/blog-project.png',
   },
 ];
 export default function Projects() {
