@@ -6,8 +6,8 @@ export default function HeaderContainer() {
     <Main>
       <PresentationText>
         <h2>Hello world!</h2>
-        <p>My name is Vini</p>
-        <h3>a Front End dev in development</h3>
+        <p>Meu nome é Vinicius</p>
+        <h3>dev Front End em desenvolvimento</h3>
         <Link href="https://github.com/vinirocha05">
           <GithubLink>
             <img

@@ -18,7 +18,6 @@ export const Content = styled.div`
   max-width: 96rem;
   margin: 0 auto;
   gap: 3rem;
-  margin-top: 10rem;
 
   @media (max-width: 800px) {
     display: flex;
@@ -60,4 +59,12 @@ export const SkillDetails = styled.div`
       font-size: ${({ theme }) => theme.fonts.sizes.small};
     }
   }
+`;
+
+export const Heading = styled.h2`
+  color: ${({ theme }) => theme.colors.white};
+  font-size: ${({ theme }) => theme.fonts.sizes.superlarge};
+  text-align: center;
+  margin-top: 10rem;
+  margin-bottom: 4rem;
 `;

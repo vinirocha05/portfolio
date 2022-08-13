@@ -5,8 +5,12 @@ export type NavMobileProps = {
 };
 
 export const Header = styled.header`
-  height: 5rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  background-color: ${({ theme }) => theme.colors.dark};
+  z-index: 100;
 `;
 
 export const Content = styled.div`
