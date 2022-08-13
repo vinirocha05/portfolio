@@ -7,9 +7,7 @@ export default function HeaderContainer() {
   return (
     <Header>
       <Content>
-        <p>
-          <strong>LOGO</strong>
-        </p>
+        <img src="/assets/vr_logo.png" alt="logo Vinicius Rocha" />
         <nav>
           <ul>
             <li>
@@ -37,17 +35,17 @@ export default function HeaderContainer() {
         <ul>
           <li>
             <Link href="#sobre">
-              <a> Sobre mim</a>
+              <a onClick={() => setOpen(!open)}> Sobre mim</a>
             </Link>
           </li>
           <li>
             <Link href="#tecnologias">
-              <a>Tecnologias</a>
+              <a onClick={() => setOpen(!open)}>Tecnologias</a>
             </Link>
           </li>
           <li>
             <Link href="#projetos">
-              <a>Projetos</a>
+              <a onClick={() => setOpen(!open)}>Projetos</a>
             </Link>
           </li>
         </ul>

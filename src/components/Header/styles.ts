@@ -49,6 +49,10 @@ export const Content = styled.div`
       display: block;
       padding-right: 2rem;
     }
+
+    img {
+      padding-left: 2rem;
+    }
   }
 `;
 
@@ -81,7 +85,6 @@ export const NavMobile = styled.nav<NavMobileProps>`
     position: absolute;
     right: 0;
     padding: 2rem;
-    color: red;
-    font-size: ${({ theme }) => theme.fonts.sizes.medium};
+    font-size: ${({ theme }) => theme.fonts.sizes.small};
   }
 `;
