@@ -28,12 +28,7 @@ export default function HeaderContainer() {
         </Link>
       </PresentationText>
 
-      <img
-        src="https://source.unsplash.com/random/800x600
-
-"
-        alt="random"
-      />
+      <img src="/assets/svg1.svg" alt="random" />
     </Main>
   );
 }
