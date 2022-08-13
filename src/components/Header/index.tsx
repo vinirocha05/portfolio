@@ -1,7 +1,9 @@
 import Link from 'next/link';
-import { Header, Content } from './styles';
+import { useState } from 'react';
+import { Header, Content, NavMobile } from './styles';
 
 export default function HeaderContainer() {
+  const [open, setOpen] = useState(false);
   return (
     <Header>
       <Content>
@@ -11,23 +13,45 @@ export default function HeaderContainer() {
         <nav>
           <ul>
             <li>
-              <Link href="/">
+              <Link href="#sobre">
                 <a> Sobre mim</a>
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="#tecnologias">
                 <a>Tecnologias</a>
               </Link>
             </li>
             <li>
-              <Link href="/">
-                <a>Exercícios</a>
+              <Link href="#projetos">
+                <a>Projetos</a>
               </Link>
             </li>
           </ul>
         </nav>
+        {open ? '' : <span onClick={() => setOpen(!open)}>☰</span>}
       </Content>
+      <NavMobile open={open}>
+        <span onClick={() => setOpen(!open)}>&#x274c;</span>
+
+        <ul>
+          <li>
+            <Link href="#sobre">
+              <a> Sobre mim</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="#tecnologias">
+              <a>Tecnologias</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="#projetos">
+              <a>Projetos</a>
+            </Link>
+          </li>
+        </ul>
+      </NavMobile>
     </Header>
   );
 }

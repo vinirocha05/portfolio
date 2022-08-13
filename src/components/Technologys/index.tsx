@@ -56,7 +56,7 @@ export default function Citation() {
   const [skill, setSkill] = useState<Skill>();
 
   return (
-    <Content>
+    <Content id="tecnologias">
       <SkillDetails>
         {skill ? (
           <div>

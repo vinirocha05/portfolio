@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+export type NavMobileProps = {
+  open: boolean;
+};
+
 export const Header = styled.header`
   height: 5rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
@@ -32,5 +36,52 @@ export const Content = styled.div`
     :hover:after {
       width: 100%;
     }
+  }
+  span {
+    display: none;
+  }
+
+  @media (max-width: 800px) {
+    nav {
+      display: none;
+    }
+    span {
+      display: block;
+      padding-right: 2rem;
+    }
+  }
+`;
+
+export const NavMobile = styled.nav<NavMobileProps>`
+  display: ${({ open }) => (open ? '' : 'none')};
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  backdrop-filter: blur(3px);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: ${({ theme }) => theme.colors.white};
+  font-size: ${({ theme }) => theme.fonts.sizes.superlarge};
+  overflow-y: hidden;
+  ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  ul li {
+    padding: 5rem 0;
+  }
+
+  span {
+    position: absolute;
+    right: 0;
+    padding: 2rem;
+    color: red;
+    font-size: ${({ theme }) => theme.fonts.sizes.medium};
   }
 `;

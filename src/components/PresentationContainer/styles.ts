@@ -10,6 +10,15 @@ export const Main = styled.main`
   img {
     width: 100%;
   }
+
+  @media (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+
+    img {
+      padding: 2rem;
+    }
+  }
 `;
 
 export const PresentationText = styled.div`
@@ -24,6 +33,10 @@ export const PresentationText = styled.div`
   h3 {
     color: ${({ theme }) => theme.colors.primary};
     font-size: ${({ theme }) => theme.fonts.sizes.medium};
+  }
+
+  @media (max-width: 800px) {
+    padding: 2rem;
   }
 `;
 

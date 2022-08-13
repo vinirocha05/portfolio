@@ -37,7 +37,7 @@ const projects = [
 ];
 export default function Projects() {
   return (
-    <Content>
+    <Content id="projetos">
       <h2>Projetos</h2>
 
       <ProjectsContainer>
