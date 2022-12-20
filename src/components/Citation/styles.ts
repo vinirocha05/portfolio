@@ -9,6 +9,7 @@ export const Container = styled.div`
   max-width: 72rem;
   margin: 0 auto;
   text-align: center;
+  padding-top: 4rem;
   span {
     color: ${({ theme }) => theme.colors.primary};
     font-size: ${({ theme }) => theme.fonts.sizes.large};

@@ -1,10 +1,10 @@
-import { Content, Grid } from './styles';
+import { Content, Grid, Heading } from './styles';
 
 export default function Etapas() {
   return (
     <Content id="etapas">
-      <h2>Etapas</h2> <br />
-      <h3>Para criar sua site nós vamos usar essas 4 etaps</h3>
+      <Heading>Etapas</Heading> <br />
+      <h3>Para criar seu site nós vamos passar por essas 4 etapas</h3>
       <Grid>
         <div>
           <h3>1. Ideação</h3>

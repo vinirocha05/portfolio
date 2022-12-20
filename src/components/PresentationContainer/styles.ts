@@ -88,3 +88,29 @@ export const LinkedinLink = styled.div`
     transform: scale(1.05);
   }
 `;
+
+export const WhatsappLink = styled.div`
+  padding: 1rem;
+  background-color: #25d366;
+  color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  max-width: 20rem;
+  color: black;
+  border-radius: 0.9rem;
+  cursor: pointer;
+  margin-top: 2rem;
+  transition: 0.5s all ease-in-out;
+  img {
+    width: 2rem;
+  }
+  a {
+    margin-left: 2rem;
+    color: ${({ theme }) => theme.colors.white};
+    font-size: ${({ theme }) => theme.fonts.sizes.small};
+  }
+
+  :hover {
+    transform: scale(1.05);
+  }
+`;

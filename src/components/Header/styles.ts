@@ -15,7 +15,7 @@ export const Header = styled.header`
 
 export const Content = styled.div`
   img {
-    max-width: 30px;
+    height: 30px;
   }
   color: ${({ theme }) => theme.colors.white};
   display: flex;

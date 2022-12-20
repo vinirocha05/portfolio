@@ -44,6 +44,7 @@ export const SkillDetails = styled.div`
   @media (max-width: 800px) {
     margin: 0 auto;
     padding: 2rem;
+    order: 1;
     span {
       color: ${({ theme }) => theme.colors.white};
       font-size: ${({ theme }) => theme.fonts.sizes.large};
@@ -67,4 +68,5 @@ export const Heading = styled.h2`
   text-align: center;
   margin-top: 10rem;
   margin-bottom: 4rem;
+  padding-top: 5rem;
 `;

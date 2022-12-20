@@ -57,8 +57,8 @@ export default function Citation() {
 
   return (
     <>
-      <Heading>Tecnologias</Heading>
-      <Content id="tecnologias">
+      <Heading id="tecnologias">Tecnologias</Heading>
+      <Content>
         <SkillDetails>
           {skill ? (
             <div>

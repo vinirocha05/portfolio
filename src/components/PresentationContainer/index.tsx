@@ -1,5 +1,11 @@
 import Link from 'next/link';
-import { Main, PresentationText, GithubLink, LinkedinLink } from './styles';
+import {
+  Main,
+  PresentationText,
+  GithubLink,
+  LinkedinLink,
+  WhatsappLink,
+} from './styles';
 
 export default function HeaderContainer() {
   return (
@@ -25,6 +31,12 @@ export default function HeaderContainer() {
             />
             <a>Linkedin</a>
           </LinkedinLink>
+        </Link>
+        <Link href="https://wa.me/5516981374525?text=Oi">
+          <WhatsappLink>
+            <img src="/assets/whatsapp.png" alt="" />
+            <a>Whatsapp</a>
+          </WhatsappLink>
         </Link>
       </PresentationText>
 

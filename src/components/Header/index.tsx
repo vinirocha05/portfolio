@@ -21,6 +21,11 @@ export default function HeaderContainer() {
               </Link>
             </li>
             <li>
+              <Link href="#etapas">
+                <a>Etapas</a>
+              </Link>
+            </li>
+            <li>
               <Link href="#projetos">
                 <a>Projetos</a>
               </Link>

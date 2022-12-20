@@ -9,6 +9,8 @@ export const ProjectsContainer = styled.div`
 `;
 
 export const Content = styled.div`
+  padding-top: 3rem;
+
   h2 {
     color: ${({ theme }) => theme.colors.white};
     font-size: ${({ theme }) => theme.fonts.sizes.superlarge};
