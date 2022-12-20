@@ -1,5 +1,5 @@
 import { Project } from '../../domain/project';
-import ProjectContainer from '../ProjectContainer';
+import ProjectContainer from '../../containers/ProjectContainer';
 import { ProjectsContainer, Content } from './styles';
 
 export type ProjectsProps = {

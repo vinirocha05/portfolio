@@ -9,7 +9,7 @@ export const ProjectsContainer = styled.div`
 `;
 
 export const Content = styled.div`
-  padding-top: 3rem;
+  margin-top: 5rem;
 
   h2 {
     color: ${({ theme }) => theme.colors.white};

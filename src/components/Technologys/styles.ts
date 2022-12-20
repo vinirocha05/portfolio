@@ -66,7 +66,6 @@ export const Heading = styled.h2`
   color: ${({ theme }) => theme.colors.white};
   font-size: ${({ theme }) => theme.fonts.sizes.superlarge};
   text-align: center;
-  margin-top: 10rem;
-  margin-bottom: 4rem;
-  padding-top: 5rem;
+  margin-top: 2rem;
+  padding: 5rem 0;
 `;

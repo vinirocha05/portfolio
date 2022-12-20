@@ -1,5 +1,5 @@
 import { IconsContainer, Content, SkillDetails, Heading } from './styles';
-import SkillCard from '../SkillCard';
+import SkillCard from '../../containers/SkillCard';
 import { useState } from 'react';
 
 const skills = [

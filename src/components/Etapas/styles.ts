@@ -3,9 +3,8 @@ import styled from 'styled-components';
 export const Content = styled.section`
   color: ${({ theme }) => theme.colors.white};
   max-width: 100rem;
-  margin: 5rem auto;
-  min-height: 40vh;
-  padding-top: 2rem;
+  max-width: 100rem;
+  margin: 0 auto;
   img {
     max-width: 40px;
     margin: 2rem 0;
@@ -13,6 +12,7 @@ export const Content = styled.section`
 
   h3 {
     font-size: ${({ theme }) => theme.fonts.sizes.medium};
+    margin-bottom: 2rem;
   }
 
   @media (max-width: 800px) {
@@ -23,8 +23,6 @@ export const Content = styled.section`
 `;
 
 export const Grid = styled.div`
-  margin-top: 5rem;
-
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
 
@@ -48,6 +46,5 @@ export const Heading = styled.h2`
   color: ${({ theme }) => theme.colors.white};
   font-size: ${({ theme }) => theme.fonts.sizes.superlarge};
   text-align: center;
-  margin-top: 10rem;
-  margin-bottom: 4rem;
+  padding: 5rem 0;
 `;

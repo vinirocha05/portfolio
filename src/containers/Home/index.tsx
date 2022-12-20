@@ -1,5 +1,5 @@
 import Header from '../../components/Header';
-import PresentationContainer from '../../components/PresentationContainer';
+import PresentationContainer from '../../components/Presentation';
 import Citation from '../../components/Citation';
 import Technologys from '../../components/Technologys';
 import Projects from '../../components/Projects';

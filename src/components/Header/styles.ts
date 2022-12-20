@@ -85,7 +85,7 @@ export const NavMobile = styled.nav<NavMobileProps>`
   }
 
   ul li {
-    padding: 5rem 0;
+    padding: 3rem 0;
   }
 
   span {

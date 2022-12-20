@@ -8,7 +8,7 @@ export const GlobalStyles = createGlobalStyle`
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  scroll-padding-top:5rem;
+  scroll-padding-top:10rem;
 
   /* width */
 ::-webkit-scrollbar {
@@ -40,7 +40,7 @@ html{
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: ${({ theme }) => theme.colors.dark}
+    background-color: ${({ theme }) => theme.colors.dark};
   }
 
   a{

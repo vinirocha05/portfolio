@@ -3,7 +3,7 @@ import { Content, Grid, Heading } from './styles';
 export default function Etapas() {
   return (
     <Content id="etapas">
-      <Heading>Etapas</Heading> <br />
+      <Heading>Etapas</Heading>
       <h3>Para criar seu site nós vamos passar por essas 4 etapas</h3>
       <Grid>
         <div>
