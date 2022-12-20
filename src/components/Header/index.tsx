@@ -7,7 +7,7 @@ export default function HeaderContainer() {
   return (
     <Header>
       <Content>
-        <img src="/assets/vr_logo.png" alt="logo Vinicius Rocha" />
+        <img src="/assets/vr_logo2.svg" alt="logo Vinicius Rocha" />
         <nav>
           <ul>
             <li>
