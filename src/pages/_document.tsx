@@ -44,6 +44,15 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
             rel="stylesheet"
           />
+          <title>Dev Vinicius Rocha - Construindo sua identidade digital</title>
+          <meta
+            name="description"
+            content="Atualmente ter uma identidade digital é muito importante, sem ele você é apenas mais um site na Internet. Mas é para isso que estou aqui, meu objetivo é tornar sua empresa competitiva no mundo digital gerando ganhos para seu negócio."
+          />
+          <meta
+            name="keywords"
+            content="site, criação front-end, desenvolvimento, digital, web"
+          />
         </Head>
         <body>
           <Main />
